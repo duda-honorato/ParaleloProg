@@ -7,9 +7,9 @@ def pi_sequencial(n_pontos):
     pontos_fora = 0
     inicio = time.time()
     for i in range(n_pontos):
-        x = random.random()
-        y = random.random()
-        z = x*x + y*y
+        x = 2*random.random()-1
+        y = 2*random.random()-1
+        z = x**2 + y**2
         if z <= 1.0:
             pontos_dentro += 1
         else:  
@@ -34,8 +34,8 @@ def main():
     print("=== Cálculo de Pi via Método de Monte Carlo (Sequencial) ===")
     pi_aprox, pontos_dentro, pontos_fora, t_execucao = pi_sequencial(n_pontos)
 
-    proporcao_dentro = pontos_dentro / n_pontos  # Corrigido: n_pontos
-    proporcao_fora = pontos_fora / n_pontos  # Corrigido: n_pontos
+    proporcao_dentro = pontos_dentro / n_pontos  
+    proporcao_fora = pontos_fora / n_pontos  
     erro_absoluto = abs(math.pi - pi_aprox)  
     erro_percentual = erro_absoluto / math.pi * 100
 
