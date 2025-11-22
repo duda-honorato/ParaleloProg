@@ -1,4 +1,4 @@
-# 📋 Descricao
+# Descricao
 Este projeto implementa o calculo de π (PI) utilizando o Metodo do Monte Carlo com a paralelizacao atraves do MPI com o objetivo de demonstrar os ganhos de desempenho obtidos atraves da programacao paralela em comparacao com a abordagem sequencial
 
 # 🎯 Objetivos
@@ -23,3 +23,6 @@ Biblioteca de Paralelismo:
 Biblioteca Auxiliares: random, time e math
 
 Ferramentas: MPI
+
+# Links Ref:
+https://rabernat.github.io/research_computing/parallel-programming-with-mpi-for-python.html
