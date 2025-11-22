@@ -25,4 +25,5 @@ Biblioteca Auxiliares: random, time e math
 Ferramentas: MPI (Message Passing Interface)
 
 # Links Ref:
-https://rabernat.github.io/research_computing/parallel-programming-with-mpi-for-python.html; https://stackoverflow.com/questions/21088420/mpi4py-send-recv-with-tag
+https://rabernat.github.io/research_computing/parallel-programming-with-mpi-for-python.html; https://stackoverflow.com/questions/21088420/mpi4py-send-recv-with-tag;https://mpi4py.readthedocs.io/en/stable/tutorial.html
+
